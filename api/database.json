@@ -1,0 +1,197 @@
+{
+    "characters": [
+        {
+            "name": "Mario",
+            "tier": "C",
+            "id": 1,
+            "stockIcon": "/images/MarioHeadSSBM.webp",
+            "tierNumber": 16
+            
+        },
+        {
+            "name": "Luigi",
+            "tier": "C",
+            "id": 2,
+            "stockIcon": "images/LuigiHeadSSBM.webp",
+            "tierNumber": 12
+        },
+        {
+            "name": "Dr. Mario",
+            "tier": "C",
+            "id": 3,
+            "stockIcon": "images/DrMarioHeadSSBM.webp",
+            "tierNumber": 13
+        },
+        {
+            "name": "Bowser",
+            "tier": "F",
+            "id": 4,
+            "stockIcon": "images/BowserHeadSSBM.webp",
+            "tierNumber": 26
+        },
+        {
+            "name": "Peach",
+            "tier": "A",
+            "id": 5,
+            "stockIcon": "images/PeachHeadSSBM.webp",
+            "tierNumber": 7
+        },
+        {
+            "name": "Yoshi",
+            "tier": "B",
+            "id": 6,
+            "stockIcon": "images/YoshiHeadSSBM.webp",
+            "tierNumber": 9
+        },
+        {
+            "name": "Donky Kong",
+            "tier": "C",
+            "id": 7,
+            "stockIcon": "images/DonkeyKongHeadSSBM.webp",
+            "tierNumber": 15
+        },
+        {
+            "name": "Captain Falcon",
+            "tier": "A",
+            "id": 8,
+            "stockIcon": "images/CaptainFalconHeadSSBM.webp",
+            "tierNumber": 6
+        },
+        {
+            "name": "Ganondorf",
+            "tier": "C",
+            "id": 9,
+            "stockIcon": "images/GanondorfHeadSSBM.webp",
+            "tierNumber": 14
+        },
+        {
+            "name": "Fox",
+            "tier": "S",
+            "id": 10,
+            "stockIcon": "images/FoxHeadSSBM.webp",
+            "tierNumber": 1
+        },
+        {
+            "name": "Falco",
+            "tier": "S",
+            "id": 11,
+            "stockIcon": "images/FalcoHeadSSBM.webp",
+            "tierNumber": 3
+        },
+        {
+            "name": "Ness",
+            "tier": "D",
+            "id": 12,
+            "stockIcon": "images/NessHeadSSBM.webp",
+            "tierNumber": 23
+        },
+        {
+            "name": "Ice Climbers",
+            "tier": "B",
+            "id": 13,
+            "stockIcon": "images/IceClimbersHeadSSBM.webp",
+            "tierNumber": 11
+        },
+        {
+            "name": "Kirby",
+            "tier": "F",
+            "id": 14,
+            "stockIcon": "images/KirbyHeadSSBM.webp",
+            "tierNumber": 25
+        },
+        {
+            "name": "Samus",
+            "tier": "B",
+            "id": 15,
+            "stockIcon": "images/SamusHeadSSBM.webp",
+            "tierNumber": 10
+        },
+        {
+            "name": "Zelda",
+            "tier": "D",
+            "id": 16,
+            "stockIcon": "images/ZeldaHeadSSBM.webp",
+            "tierNumber": 22
+        },
+        {
+            "name": "Sheik",
+            "tier": "S",
+            "id": 17,
+            "stockIcon": "images/SheikHeadSSBM.webp",
+            "tierNumber": 4
+        },
+        {
+            "name": "Link",
+            "tier": "C",
+            "id": 18,
+            "stockIcon": "images/LinkHeadSSBM.webp",
+            "tierNumber": 18
+        },
+        {
+            "name": "Young Link",
+            "tier": "C",
+            "id": 19,
+            "stockIcon": "images/YoungLinkHeadSSBM.webp",
+            "tierNumber": 17
+        },
+        {
+            "name": "Pikachu",
+            "tier": "B",
+            "id": 20 ,
+            "stockIcon": "images/PikachuHeadSSBM.webp",
+            "tierNumber": 8
+        },
+        {
+            "name": "Pichu",
+            "tier": "F",
+            "id": 21,
+            "stockIcon": "images/PichuHeadSSBM.webp",
+            "tierNumber": 24
+        },
+        {
+            "name": "Jigglypuff",
+            "tier": "S",
+            "id": 22,
+            "stockIcon": "images/JigglypuffHeadSSBM.webp",
+            "tierNumber": 5
+        },
+        {
+            "name": "Mewtwo",
+            "tier": "C",
+            "id": 23,
+            "stockIcon": "images/MewtwoHeadSSBM.webp",
+            "tierNumber": 19
+        },
+        {
+            "name": "Mr. Game & Watch",
+            "tier": "D",
+            "id": 24,
+            "stockIcon": "images/MrGame&WatchHeadSSBM.webp",
+            "tierNumber": 20
+        },
+        {
+            "name": "Marth",
+            "tier": "S",
+            "id": 25,
+            "stockIcon": "images/MarthHeadSSBM.webp",
+            "tierNumber": 2
+        },
+        {
+            "name": "Roy",
+            "tier": "D",
+            "id": 26,
+            "stockIcon": "images/RoyHeadSSBM.webp",
+            "tierNumber": 21
+        }
+    ],
+    "users": [
+
+    ],
+    "characterNotes": [
+
+    ],
+    "userCharacterMatchups": [
+
+    ]
+    
+}

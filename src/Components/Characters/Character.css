@@ -1,0 +1,39 @@
+.cardContent__S {
+    background-color: #0011ff;
+}
+.cardContent__A {
+    background-color: #242a8b;
+}
+.cardContent__B {
+    background-color: #101bbe;
+}
+.cardContent__C {
+    background-color: #8184b6;
+}
+.cardContent__D {
+    background-color: #24252e;
+}
+.cardContent__F {
+    background-color: #020750; 
+} 
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    height: auto;
+    min-width: 200px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;  
+}
+
+.stockIcon {
+    height: 45px;
+    width: 45px;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+  
+}
