@@ -1,11 +1,18 @@
 .navbar {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: left;
+    justify-content: start;
     list-style-type: none;
+    align-items: start;
+    
 }
 
 .nav-item {
     flex-basis: 20%;
     margin-right: 10px;
+    
+}
+
+.nav-link{
+    color: #AAE7FF;
 }

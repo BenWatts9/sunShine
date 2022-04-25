@@ -1,0 +1,21 @@
+.noteCard {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    height: auto;
+    min-width: 200px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px; 
+    color: #AAE7FF ;
+    background-color: #011c1b;
+}
+
+.stockIcon {
+    height: 45px;
+    width: 45px;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+}

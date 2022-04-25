@@ -1,4 +1,4 @@
-import './App.css';
+import './SunShine.css';
 import { NavBar } from './Components/nav/NavBar';
 import { useState } from 'react';
 import { ApplicationViews } from './Components/ApplicationViews';
@@ -23,6 +23,7 @@ export const SunShine = () => {
     <div className="App">
       <header className="App-header">
         <img src={"images/shine.png"} className="App-logo" alt="logo" />
+        
         
       <NavBar clearUser={clearUser} isAuthenticated={isAuthenticated}/>
       <ApplicationViews setAuthUser={setAuthUser}
