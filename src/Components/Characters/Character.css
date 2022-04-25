@@ -1,20 +1,20 @@
 .cardContent__S {
-    background-color: #0011ff;
+    background-color: #011c1b;
 }
 .cardContent__A {
-    background-color: #242a8b;
+    background-color: #002531;
 }
 .cardContent__B {
-    background-color: #101bbe;
+    background-color: #002e4f;
 }
 .cardContent__C {
-    background-color: #8184b6;
+    background-color: #153f70;
 }
 .cardContent__D {
-    background-color: #24252e;
+    background-color: #003186;
 }
 .cardContent__F {
-    background-color: #020750; 
+    background-color: #242a8b; 
 } 
 
 .card {
@@ -24,7 +24,8 @@
     height: auto;
     min-width: 200px;
     padding: 10px 10px 10px 10px;
-    font-size: 20px;  
+    font-size: 20px; 
+    color: #AAE7FF 
 }
 
 .stockIcon {
