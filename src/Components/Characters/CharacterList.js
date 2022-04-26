@@ -6,7 +6,8 @@ import "./Character.css"
 
 export const CharacterList = () => {
     const [ characters, setCharacters ] = useState([])
-    
+    let tierLetter = "S"
+
     const getCharacters = () => {
         return getAllCharacters()
         .then(charactersFromAPI => {
@@ -21,12 +22,15 @@ export const CharacterList = () => {
     return (
     <>
         <div className="container-cards">
-            {characters.map(character => 
+            
+            {characters.map(character =>
+                                <> 
                                     <CharacterCard 
-                                        key={character.tierNumber}
-                                        character={character}
-                                        />
-                                        )}                        
+                                    key={character.tierNumber}
+                                    character={character}
+                                    /> 
+                                </>
+            )}                        
         </div>
     </>
     )

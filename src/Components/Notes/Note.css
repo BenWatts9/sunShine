@@ -1,3 +1,7 @@
+html{
+    background-color: ;
+}
+
 .noteCard {
     display: flex;
     flex-direction: column;
@@ -15,7 +19,62 @@
     width: 45px;
 }
 
+.character-name {
+    font-size: 1.3em;
+    padding-left: 2em;;
+}
+
+.character-name
+
+
 .container-cards {
     display: flex;
     flex-wrap: wrap;
+}
+
+.note-body{
+    border: currentColor .125px solid;
+    padding: .5em;
+    border-radius: .25em;
+    width: 250px;
+}
+
+.back-clicker {
+    color: #AAE7FF;
+    cursor: pointer;
+    font-size: 14;
+    text-shadow: 
+        0 0 .125em hsl(0 0% 100% / 0.3),
+        0 0 .45em currentColor ;
+}
+
+.back-clicker:hover{
+    color:#50cbfc;
+}
+
+.select-buttons{
+    display: inline-block;
+    background-color: #011c1b;
+    margin-right: 2em;
+    margin-bottom: .5em;
+    font-size: .7em;
+    padding: 0.25em 1em;
+    color: yellow; 
+    text-shadow: 
+        0 0 .125em hsl(0 0% 100% / 0.3),
+        0 0 .45em currentColor ;
+    border-radius: .25em;
+    border: currentColor .125px solid;
+    
+    cursor: pointer;
+
+    box-shadow: inset 0 0 .5em 0 currentColor, 0 0 .5em 0 currentColor;
+    position: sticky;
+}
+
+.select-buttons:hover{
+    background-color: yellow;
+    color: #011c1b;
+    text-shadow: 0;
+    box-shadow: 0;
 }

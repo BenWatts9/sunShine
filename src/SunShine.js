@@ -5,16 +5,16 @@ import { ApplicationViews } from './Components/ApplicationViews';
 
 export const SunShine = () => {
   
-  const [isAuthenticated, setIsAuthenticated] = useState(sessionStorage.getItem("nutshell_user") !== null)
+  const [isAuthenticated, setIsAuthenticated] = useState(sessionStorage.getItem("sunshine_user") !== null)
 
     const setAuthUser = (user) => {
-        sessionStorage.setItem("nutshell_user", JSON.stringify(user))
+        sessionStorage.setItem("sunshine_user", JSON.stringify(user))
         setIsAuthenticated(sessionStorage.getItem("nutshell_user") !== null)
     }
     
     const clearUser = () => {
         sessionStorage.clear();
-        setIsAuthenticated(sessionStorage.getItem("nutshell_user") !== null)
+        setIsAuthenticated(sessionStorage.getItem("sunshine_user") !== null)
       }
   
   
@@ -22,10 +22,12 @@ export const SunShine = () => {
 
     <div className="App">
       <header className="App-header">
-        <img src={"images/shine.png"} className="App-logo" alt="logo" />
+        <div className='page-header'>
+        <img src={"images/sunShine.png"} className="App-logo" alt="logo" />
+         
+        </div>
         
-        
-      <NavBar clearUser={clearUser} isAuthenticated={isAuthenticated}/>
+      {/* <NavBar clearUser={clearUser} isAuthenticated={isAuthenticated}/> */}
       <ApplicationViews setAuthUser={setAuthUser}
                 isAuthenticated={isAuthenticated}
                 setIsAuthenticated={setIsAuthenticated}/>
