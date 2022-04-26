@@ -4,182 +4,182 @@
       "name": "Mario",
       "tier": "C",
       "id": 1,
-      "stockIcon": "/images/MarioHeadSSBM.webp",
+      "stockIcon": "Mario",
       "tierNumber": 16
     },
     {
       "name": "Luigi",
       "tier": "C",
       "id": 2,
-      "stockIcon": "images/LuigiHeadSSBM.webp",
+      "stockIcon": "Luigi",
       "tierNumber": 12
     },
     {
       "name": "Dr. Mario",
       "tier": "C",
       "id": 3,
-      "stockIcon": "images/DrMarioHeadSSBM.webp",
+      "stockIcon": "DrMario",
       "tierNumber": 13
     },
     {
       "name": "Bowser",
       "tier": "F",
       "id": 4,
-      "stockIcon": "images/BowserHeadSSBM.webp",
+      "stockIcon": "Bowser",
       "tierNumber": 26
     },
     {
       "name": "Peach",
       "tier": "A",
       "id": 5,
-      "stockIcon": "images/PeachHeadSSBM.webp",
+      "stockIcon": "Peach",
       "tierNumber": 7
     },
     {
       "name": "Yoshi",
       "tier": "B",
       "id": 6,
-      "stockIcon": "images/YoshiHeadSSBM.webp",
+      "stockIcon": "Yoshi",
       "tierNumber": 9
     },
     {
       "name": "Donky Kong",
       "tier": "C",
       "id": 7,
-      "stockIcon": "images/DonkeyKongHeadSSBM.webp",
+      "stockIcon": "DonkeyKong",
       "tierNumber": 15
     },
     {
       "name": "Captain Falcon",
       "tier": "A",
       "id": 8,
-      "stockIcon": "images/CaptainFalconHeadSSBM.webp",
+      "stockIcon": "CaptainFalcon",
       "tierNumber": 6
     },
     {
       "name": "Ganondorf",
       "tier": "C",
       "id": 9,
-      "stockIcon": "images/GanondorfHeadSSBM.webp",
+      "stockIcon": "Ganondorf",
       "tierNumber": 14
     },
     {
       "name": "Fox",
       "tier": "S",
       "id": 10,
-      "stockIcon": "images/FoxHeadSSBM.webp",
+      "stockIcon": "Fox",
       "tierNumber": 1
     },
     {
       "name": "Falco",
       "tier": "S",
       "id": 11,
-      "stockIcon": "images/FalcoHeadSSBM.webp",
+      "stockIcon": "Falco",
       "tierNumber": 3
     },
     {
       "name": "Ness",
       "tier": "D",
       "id": 12,
-      "stockIcon": "images/NessHeadSSBM.webp",
+      "stockIcon": "Ness",
       "tierNumber": 23
     },
     {
       "name": "Ice Climbers",
       "tier": "B",
       "id": 13,
-      "stockIcon": "images/IceClimbersHeadSSBM.webp",
+      "stockIcon": "IceClimbers",
       "tierNumber": 11
     },
     {
       "name": "Kirby",
       "tier": "F",
       "id": 14,
-      "stockIcon": "images/KirbyHeadSSBM.webp",
+      "stockIcon": "Kirby",
       "tierNumber": 25
     },
     {
       "name": "Samus",
       "tier": "B",
       "id": 15,
-      "stockIcon": "images/SamusHeadSSBM.webp",
+      "stockIcon": "Samus",
       "tierNumber": 10
     },
     {
       "name": "Zelda",
       "tier": "D",
       "id": 16,
-      "stockIcon": "images/ZeldaHeadSSBM.webp",
+      "stockIcon": "Zelda",
       "tierNumber": 22
     },
     {
       "name": "Sheik",
       "tier": "S",
       "id": 17,
-      "stockIcon": "images/SheikHeadSSBM.webp",
+      "stockIcon": "Sheik",
       "tierNumber": 4
     },
     {
       "name": "Link",
       "tier": "C",
       "id": 18,
-      "stockIcon": "images/LinkHeadSSBM.webp",
+      "stockIcon": "Link",
       "tierNumber": 18
     },
     {
       "name": "Young Link",
       "tier": "C",
       "id": 19,
-      "stockIcon": "images/YoungLinkHeadSSBM.webp",
+      "stockIcon": "YoungLink",
       "tierNumber": 17
     },
     {
       "name": "Pikachu",
       "tier": "B",
       "id": 20,
-      "stockIcon": "images/PikachuHeadSSBM.webp",
+      "stockIcon": "Pikachu",
       "tierNumber": 8
     },
     {
       "name": "Pichu",
       "tier": "F",
       "id": 21,
-      "stockIcon": "images/PichuHeadSSBM.webp",
+      "stockIcon": "Pichu",
       "tierNumber": 24
     },
     {
       "name": "Jigglypuff",
-      "tier": "S",
+      "tier": "A",
       "id": 22,
-      "stockIcon": "images/JigglypuffHeadSSBM.webp",
+      "stockIcon": "Jigglypuff",
       "tierNumber": 5
     },
     {
       "name": "Mewtwo",
       "tier": "C",
       "id": 23,
-      "stockIcon": "images/MewtwoHeadSSBM.webp",
+      "stockIcon": "Mewtwo",
       "tierNumber": 19
     },
     {
       "name": "Mr. Game & Watch",
       "tier": "D",
       "id": 24,
-      "stockIcon": "images/MrGame&WatchHeadSSBM.webp",
+      "stockIcon": "MrGame&Watch",
       "tierNumber": 20
     },
     {
       "name": "Marth",
       "tier": "S",
       "id": 25,
-      "stockIcon": "images/MarthHeadSSBM.webp",
+      "stockIcon": "Marth",
       "tierNumber": 2
     },
     {
       "name": "Roy",
       "tier": "D",
       "id": 26,
-      "stockIcon": "images/RoyHeadSSBM.webp",
+      "stockIcon": "Roy",
       "tierNumber": 21
     }
   ],
@@ -211,22 +211,34 @@
   ],
   "characterNotes": [
     {
-          "id": 1,
-          "userId": 1,
-          "characterId": 14,
-          "body": "this is a note"
+      "id": 1,
+      "userId": 1,
+      "characterId": "10",
+      "body": "Too good. Broken Character. "
     },
     {
-        "id": 2,
-        "userId": 1,
-        "characterId": 4,
-        "body": "this is a not a note"
+      "id": 2,
+      "userId": 1,
+      "characterId": "11",
+      "body": "Lasers are so dumb"
     },
     {
-        "id": 3,
-        "userId": 1,
-        "characterId": 10,
-        "body": "this is more than note"
+      "id": 3,
+      "userId": 1,
+      "characterId": "22",
+      "body": "Puff can fly and is dumb"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "characterId": "14",
+      "body": "Kirby is cute"
+    },
+    {
+      "id": 5,
+      "userId": 4,
+      "characterId": "17",
+      "body": "very annoying"
     }
   ],
   "userCharacterMatchups": []

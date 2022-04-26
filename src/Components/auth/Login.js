@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import "./Login.css"
 
 export const Login = ({setAuthUser}) => {
 	const [loginUser, setLoginUser] = useState({ email: "" });
@@ -47,10 +48,10 @@ export const Login = ({setAuthUser}) => {
 			</dialog>
 			<section>
 				<form className="form--login" onSubmit={handleLogin}>
-					<h1>sunShine</h1>
-					<h2>Please sign in</h2>
+					
+					<div className="login--title"> Please sign in</div>
 					<fieldset>
-						<label htmlFor="inputEmail"> Email address </label>
+						<label htmlFor="inputEmail">Email:</label>
 						<input
 							type="email"
 							id="email"
@@ -63,12 +64,12 @@ export const Login = ({setAuthUser}) => {
 						/>
 					</fieldset>
 					<fieldset>
-						<button type="submit">Sign in</button>
+						<button type="submit" className="select-buttonz">Sign in</button>
 					</fieldset>
 				</form>
 			</section>
 			<section className="link--register">
-				<Link to="/register">Register for an account</Link>
+				<Link to="/register" className="reglink">Register for an account</Link>
 			</section>
 		</main>
 	);

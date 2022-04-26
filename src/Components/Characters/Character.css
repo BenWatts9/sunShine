@@ -17,15 +17,39 @@
     background-color: #242a8b; 
 } 
 
+.cardContent__S .select-button {
+    background-color: #011c1b;
+}
+.cardContent__A .select-button{
+    background-color: #002531;
+}
+.cardContent__B .select-button{
+    background-color: #002e4f;
+}
+.cardContent__C .select-button{
+    background-color: #153f70;
+}
+.cardContent__D .select-button{
+    background-color: #003186;
+}
+.cardContent__F .select-button{
+    background-color: #242a8b; 
+}
+
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     margin: 5px;
-    height: auto;
-    min-width: 200px;
+    height: 150px;
+    width: 235px;
     padding: 10px 10px 10px 10px;
     font-size: 20px; 
-    color: #AAE7FF 
+    color: #AAE7FF;
+    border-radius: .25em; 
+    box-shadow: inset 0 0 .5em 0 #000000,
+     0 0 .5em 0 #000000;
+    align-items:stretch;
 }
 
 .stockIcon {
@@ -33,8 +57,62 @@
     width: 45px;
 }
 
+img {
+    -webkit-filter: drop-shadow(1px 1px 0 black)
+                    drop-shadow(-1px -1px 0 black);
+    filter: drop-shadow(1px 1px 0 black) 
+            drop-shadow(-1px -1px 0 black);
+  }
+
+.button-container{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.card-charactername{
+    padding-left: 2em;
+    text-shadow: 0 0 .15em rgba(8, 8, 8, 0.5),
+    0 0 .45em currentColor ;
+    font-size: 1.3em;
+}
+
 .container-cards {
     display: flex;
     flex-wrap: wrap;
-  
+    position:relative;
+    
+}
+
+.picture-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.select-button{
+    display: inline-block;
+    margin-right: 2em;
+    margin-bottom: .5em;
+    margin-top: 3.5em;
+    font-size: .7em;
+    padding: 0.25em 1em;
+    color: yellow; 
+    text-shadow: 
+        0 0 .125em hsl(0 0% 100% / 0.3),
+        0 0 .45em currentColor ;
+    border-radius: .25em;
+    border: currentColor .125px solid;
+    
+    cursor: pointer;
+
+    box-shadow: inset 0 0 .5em 0 currentColor, 0 0 .5em 0 currentColor;
+    
+}
+
+.select-button:hover,
+.select-button:focus{
+    background-color: yellow;
+    color: #011c1b;
+    text-shadow: 0;
+    box-shadow: 0;
 }

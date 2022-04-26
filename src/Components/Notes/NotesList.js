@@ -1,7 +1,8 @@
 import { NoteCard } from "./Note";
 import { useState, useEffect } from "react";
-import { getAllNotes } from "../Modules/NotesManager";
+import { getAllNotes, deleteNote } from "../Modules/NotesManager";
 import "./Note.css"
+
 
 export const NotesList = () => {
     const [notes, setNotes] = useState([])
@@ -12,6 +13,10 @@ export const NotesList = () => {
         .then(notesFromAPI => {
             setNotes(notesFromAPI)
         })
+    }
+
+    const handleDeleteNote = id => {
+        deleteNote(id).then(()=> getAllNotes().then(setNotes))
     }
 
     
@@ -27,6 +32,7 @@ export const NotesList = () => {
                     <NoteCard 
                         key={note.id}
                         note={note}
+                        handleDeleteNote={handleDeleteNote}
                     />)}
             </div>
         </>
