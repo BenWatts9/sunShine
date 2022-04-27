@@ -1,0 +1,48 @@
+.matchup-card{
+    margin: 7px;
+    border-radius: .15em;
+}
+
+.card-name-header{
+    background-color: rgb(37, 73, 61);
+    border-radius: .15em;
+    width: 25%;
+}
+
+.matchup-card-win{
+    background-color: rgb(12, 77, 97);
+    
+}
+
+.matchup-card-lose{
+    background-color: rgb(172, 32, 32);
+}
+.mu-container{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+}
+
+
+
+.win-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+}
+
+.lose-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 80%;
+    margin-top: -20em;
+    
+}
+

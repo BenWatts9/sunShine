@@ -23,11 +23,11 @@ export const SunShine = () => {
     <div className="App">
       <header className="App-header">
         <div className='page-header'>
-        <img src={"images/sunShine.png"} className="App-logo" alt="logo" />
+        <img src={"images/sunShineFlat.png"} className="App-logo" alt="logo" />
          
         </div>
         
-      {/* <NavBar clearUser={clearUser} isAuthenticated={isAuthenticated}/> */}
+      
       <ApplicationViews setAuthUser={setAuthUser}
                 isAuthenticated={isAuthenticated}
                 setIsAuthenticated={setIsAuthenticated}/>

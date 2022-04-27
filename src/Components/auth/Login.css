@@ -15,8 +15,9 @@ fieldset{
 
 
 .login--title{
-    font-size: 1em;
+    font-size: .8em;
     padding-left: 1em;
+    padding-top: .6em;
     text-decoration: underline;
 }
 
@@ -54,4 +55,8 @@ fieldset{
 .select-buttonz:hover{
     background-color:  yellow;
     color: #000000;
+}
+
+.container--login{
+    margin-top: 2em;
 }

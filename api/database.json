@@ -211,24 +211,6 @@
   ],
   "characterNotes": [
     {
-      "id": 1,
-      "userId": 1,
-      "characterId": "10",
-      "body": "Too good. Broken Character. "
-    },
-    {
-      "id": 2,
-      "userId": 1,
-      "characterId": "11",
-      "body": "Lasers are so dumb"
-    },
-    {
-      "id": 3,
-      "userId": 1,
-      "characterId": "22",
-      "body": "Puff can fly and is dumb"
-    },
-    {
       "id": 4,
       "userId": 1,
       "characterId": "14",
@@ -239,6 +221,12 @@
       "userId": 4,
       "characterId": "17",
       "body": "very annoying"
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "characterId": "11",
+      "body": "Falco is cool"
     }
   ],
   "userCharacterMatchups": []

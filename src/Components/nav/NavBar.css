@@ -4,15 +4,22 @@
     justify-content: start;
     list-style-type: none;
     align-items: start;
-    
+    justify-content: space-around;
 }
 
 .nav-item {
     flex-basis: 20%;
-    margin-right: 10px;
+    margin-right: 2em;
     
 }
 
 .nav-link{
     color: #AAE7FF;
+    font-size: .7em;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.nav-link:hover{
+    color: #50cbfc;
 }

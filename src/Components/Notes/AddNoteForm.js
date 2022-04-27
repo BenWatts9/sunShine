@@ -2,9 +2,13 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { addNote } from "../Modules/NotesManager";
 import { useParams } from "react-router-dom";
+import "./Note.css"
+import { getCharacterById } from "../Modules/CharacterManager";
+
 
 export const NoteForm = () => {
     const {characterId} = useParams()
+    const [character, setCharacter] = useState([])
 
     const [note, setNote] = useState({
         id: 0,
@@ -30,14 +34,27 @@ export const NoteForm = () => {
         addNote(note).then(()=> navigate("/notes"))
     }
 
+    const getCharacter = id => {
+        return getCharacterById(id)
+        .then(charFromAPI => {
+            setCharacter(charFromAPI)
+        })
+    }
+
+    useEffect(()=>{
+        getCharacter(characterId)
+    },[])
+
     return (
         <form className="noteForm">
-            <h2 className="noteForm__title">New Note</h2>
+            <div className="noteForm__title">New Note for {`${character.name}`}</div>
             <fieldset>
                 <div className="form-group">
-                    <label htmlFor="body">Note:</label>
+                    <label htmlFor="body"></label>
                     <textarea type="text"
                     id="body"
+                    rows="6"
+                    cols="40"
                     onChange={handleInputChange}
                     required
                     autoFocus
@@ -49,7 +66,7 @@ export const NoteForm = () => {
             </fieldset>
             <button
            type="button"
-           className="btn btn-primary"
+           className="btnz select-buttons"
            onClick={handleClickSaveNote}
          >
            Save
