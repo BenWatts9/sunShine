@@ -8,6 +8,7 @@ import { NotesCharacterList } from "./Notes/NotesCharacterList"
 import { NoteForm } from "./Notes/AddNoteForm"
 import { EditNoteForm } from "./Notes/EditNoteForm"
 import { NavBar } from "./nav/NavBar"
+import { Matchups } from "./Matchups/Matchups"
 
 export const ApplicationViews = ({ isAuthenticated, setIsAuthenticated }) => {
 
@@ -45,6 +46,8 @@ export const ApplicationViews = ({ isAuthenticated, setIsAuthenticated }) => {
                     <Route path="notes/:characterId/add" element={<NoteForm />} />
                     <Route path="notes/:characterId" element={<NotesCharacterList />} />
                     <Route path="notes/:noteId/edit" element={<EditNoteForm />} />
+
+                    <Route path="matchups" element={<Matchups />} />
                 </Route>
             </Routes>
         </>

@@ -1,10 +1,10 @@
-html{
-    background-color: ;
-}
+
 
 .noteCard {
     display: flex;
     flex-direction: column;
+    align-items: left;
+    justify-content: left;
     margin: 5px;
     height: auto;
     min-width: 200px;
@@ -12,6 +12,9 @@ html{
     font-size: 20px; 
     color: #AAE7FF ;
     background-color: #011c1b;
+    border-radius: .25em; 
+    box-shadow: inset 0 0 .5em 0 #000000,
+     0 0 .5em 0 #000000;
 }
 
 .stockIcon {
@@ -24,12 +27,12 @@ html{
     padding-left: 2em;;
 }
 
-.character-name
 
 
 .container-cards {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
 }
 
 .note-body{
@@ -77,4 +80,19 @@ html{
     color: #011c1b;
     text-shadow: 0;
     box-shadow: 0;
+}
+
+.noteForm {
+    background-color: #011c1b;
+    border-radius: .25em; 
+    box-shadow: inset 0 0 .5em 0 #000000,
+     0 0 .5em 0 #000000;
+}
+
+.noteForm__title {
+    margin-left: .9em;
+}
+
+.btnz {
+    margin-left: 1.25em;
 }

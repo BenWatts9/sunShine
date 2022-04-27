@@ -51,7 +51,7 @@ export const Login = ({setAuthUser}) => {
 					
 					<div className="login--title"> Please sign in</div>
 					<fieldset>
-						<label htmlFor="inputEmail">Email:</label>
+						<label htmlFor="inputEmail"></label>
 						<input
 							type="email"
 							id="email"
