@@ -6,7 +6,7 @@ import "./Character.css"
 
 export const CharacterList = () => {
     const [ characters, setCharacters ] = useState([])
-    let tierLetter = "S"
+    
 
     const getCharacters = () => {
         return getAllCharacters()

@@ -207,6 +207,12 @@
       "name": "cool guy",
       "characterId": 22,
       "id": 4
+    },
+    {
+      "email": "m@mail.com",
+      "name": "Don WonderDiamond",
+      "characterId": 17,
+      "id": 5
     }
   ],
   "characterNotes": [
@@ -227,6 +233,12 @@
       "userId": 2,
       "characterId": "11",
       "body": "Falco is cool"
+    },
+    {
+      "id": 7,
+      "userId": 5,
+      "characterId": "5",
+      "body": "she can fly"
     }
   ],
   "userCharacterMatchups": []
