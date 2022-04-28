@@ -15,19 +15,19 @@ export const NavBar = (props) => {
     
     <ul className="navbar">
       <li className="nav-item">
-          <Link className="nav-link" to="home">Home</Link>
+          <Link className="nav-link" to="/home">Home</Link>
       </li>
       <li className="nav-item">
-          <Link className="nav-link" to="characters">Characters</Link>
+          <Link className="nav-link" to="/characters">Characters</Link>
       </li>
       <li className="nav-item">
-          <Link className="nav-link" to="notes">Notes</Link>
+          <Link className="nav-link" to="/notes">Notes</Link>
       </li>
       <li className="nav-item">
-          <Link className="nav-link" to="matchups">Matchups</Link>
+          <Link className="nav-link" to="/matchups">Matchups</Link>
       </li>
       <li className="nav-item">
-          <Link className="nav-link" to="login" onClick={()=>{Logout()}}>Logout</Link>
+          <Link className="nav-link" to="/login" onClick={()=>{Logout()}}>Logout</Link>
       </li>
     </ul>
     

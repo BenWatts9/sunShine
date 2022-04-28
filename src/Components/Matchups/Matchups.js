@@ -105,8 +105,8 @@ export const Matchups = () => {
                         ))}
                     </select>
             </fieldset>
+                <h4 className="card-name-header"><img className="headerStockIconMu" src={`../images/${char.stockIcon}HeadSSBM.webp`} alt="Character Stock Icon"/>{char.name}</h4>
             <div className="mu-container">
-                <h4 className="card-name-header"><img className="stockIconMu" src={`../images/${char.stockIcon}HeadSSBM.webp`} alt="Character Stock Icon"/>{char.name}</h4>
                 <div className="win-container">
                 <p>beats</p>
                 {characters.map(character => 

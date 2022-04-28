@@ -31,8 +31,8 @@ export const SunShine = () => {
       <ApplicationViews setAuthUser={setAuthUser}
                 isAuthenticated={isAuthenticated}
                 setIsAuthenticated={setIsAuthenticated}/>
-      </header>
 
+                </header>
     <footer><a
           className="App-link"
           href="https://slippi.gg"

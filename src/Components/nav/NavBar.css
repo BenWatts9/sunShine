@@ -1,11 +1,10 @@
 .navbar {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: start;
+    justify-content: left;
     list-style-type: none;
-    align-items: start;
-    justify-content: space-around;
-}
+    align-items: left;
+} 
 
 .nav-item {
     flex-basis: 20%;
