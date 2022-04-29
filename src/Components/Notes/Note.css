@@ -11,7 +11,7 @@
     padding: 10px 10px 10px 10px;
     font-size: 20px; 
     color: #AAE7FF ;
-    background-color: #011c1b;
+    background-color: #003186;
     border-radius: .25em; 
     box-shadow: inset 0 0 .5em 0 #000000,
      0 0 .5em 0 #000000;
@@ -26,8 +26,6 @@
     font-size: 1.3em;
     padding-left: 2em;;
 }
-
-
 
 .container-cards {
     display: flex;

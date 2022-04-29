@@ -8,7 +8,8 @@ export const Register = () => {
 		firstName: "",
 		lastName: "",
 		email: "",
-        characterId: 0
+        characterId: 0,
+		username: ""
 	});
 
     const [characters, setCharacters]= useState([])
@@ -59,7 +60,8 @@ export const Register = () => {
 					body: JSON.stringify({
 						email: registerUser.email,
 						name: `${registerUser.firstName} ${registerUser.lastName}`,
-                        characterId: registerUser.characterId
+                        characterId: registerUser.characterId,
+						username: registerUser.username
 					}),
 				})
 					.then((res) => res.json())
@@ -116,6 +118,19 @@ export const Register = () => {
 						placeholder="Last name"
 						required
 						value={registerUser.lastName}
+						onChange={handleInputChange}
+					/>
+				</fieldset>
+				<fieldset>
+					<label htmlFor="username"> Username </label>
+					<input
+						type="text"
+						name="username"
+						id="username"
+						className="form-control"
+						placeholder="Username"
+						required
+						value={registerUser.username}
 						onChange={handleInputChange}
 					/>
 				</fieldset>
