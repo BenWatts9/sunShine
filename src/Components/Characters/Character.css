@@ -1,5 +1,5 @@
 .cardContent__S {
-    background-color: #011c1b;
+    background-color: #02504d;
 }
 .cardContent__A {
     background-color: #002531;
@@ -18,7 +18,7 @@
 } 
 
 .cardContent__S .select-button {
-    background-color: #011c1b;
+    background-color: #02504d;
 }
 .cardContent__A .select-button{
     background-color: #002531;
@@ -99,7 +99,7 @@ img {
     color: yellow; 
     text-shadow: 
         0 0 .125em hsl(0 0% 100% / 0.3),
-        0 0 .45em currentColor ;
+        0 0 .45em currentColor;
     border-radius: .25em;
     border: currentColor .125px solid;
     

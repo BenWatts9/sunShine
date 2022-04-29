@@ -1,9 +1,9 @@
 export const HomeCard = ({user}) => {
-    const firstName = user.name.split(' ')
+    
     
     return(
         <>
-            <h2>Welcome to sunShine, {firstName[0]}</h2>
+            <h2>Welcome to sunShine, {user.username}</h2>
 
             <div className="home__character__card">
                 <div>

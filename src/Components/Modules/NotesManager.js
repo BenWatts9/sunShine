@@ -26,6 +26,11 @@ export const getNoteById = id => {
     .then(res => res.json())
 }
 
+export const getNotesByUserId = id => {
+    return fetch(`${apiUrl}/characterNotes/?userId=${id}&_expand=character`)
+    .then(res => res.json())
+}
+
 export const updateNote=(note)=>{
     return fetch(`${apiUrl}/characterNotes/${note.id}`, {
         method: "PATCH",

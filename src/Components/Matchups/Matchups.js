@@ -35,37 +35,26 @@ export const Matchups = () => {
         })
     }
     
-    const CompareCharactersWin = ({mainChar, character}) => {
-        
-       
-            
+    const CompareCharactersWin = ({character}) => {
             return <>
-                
                     <div className="mu-card-container-win">
                         <p className="matchup-card matchup-card-win">
                             {character.name}
                             <img className="stockIconMu" src={`../images/${character.stockIcon}HeadSSBM.webp`} alt="Character Stock Icon"/>
                         </p>
                     </div>
-
                     </>
-        
     }
 
-    const CompareCharactersLose = ({mainChar, character}) => {
-        
-            
+    const CompareCharactersLose = ({character}) => {
             return <>
-                
                     <div className="mu-card-container-lose">
                         <p className="matchup-card matchup-card-lose">
                             {character.name}
                             <img className="stockIconMu" src={`../images/${character.stockIcon}HeadSSBM.webp`} alt="Character Stock Icon"/>
                         </p>
                     </div>
-                
                     </>
-        
     }
 
 
@@ -108,25 +97,23 @@ export const Matchups = () => {
                 <h4 className="card-name-header"><img className="headerStockIconMu" src={`../images/${char.stockIcon}HeadSSBM.webp`} alt="Character Stock Icon"/>{char.name}</h4>
             <div className="mu-container">
                 <div className="win-container">
-                <p>beats</p>
+                <p className="beat-lose-label">beats</p>
                 {characters.map(character => 
                         <>  
                             {character.tierNumber > char.tierNumber ? 
                             <CompareCharactersWin 
                             key={character.id}
-                            mainChar={char}
                             character={character}/> : ""}
                         </>
                     )}
                 </div>
                 <div className="lose-container">
-                <p>loses to</p>
+                <p className="beat-lose-label">loses to</p>
                 {characters.map(character => 
                         <>  
                             {character.tierNumber < char.tierNumber ? 
                             <CompareCharactersLose
                             key={character.id}
-                            mainChar={char}
                             character={character}/> : ""}
                         </>
                     )}

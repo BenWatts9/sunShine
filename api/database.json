@@ -188,31 +188,43 @@
       "email": "email@email.com",
       "id": 1,
       "name": "Kevin Nanney",
-      "characterId": 11
+      "characterId": 11,
+      "username": "PPMD"
     },
     {
       "email": "mango@email.com",
       "name": "Joseph Marquez",
       "id": 2,
-      "characterId": 1
+      "characterId": 1,
+      "username": "mang0"
     },
     {
       "email": "f@mail.com",
       "name": "Ben cool",
       "characterId": 17,
-      "id": 3
+      "id": 3,
+      "username": "beefBoy"
     },
     {
       "email": "fun@mail.com",
       "name": "cool guy",
       "characterId": 22,
-      "id": 4
+      "id": 4,
+      "username": "MrCool"
     },
     {
       "email": "m@mail.com",
       "name": "Don WonderDiamond",
       "characterId": 17,
-      "id": 5
+      "id": 5,
+      "username": "DonW"
+    },
+    {
+      "email": "juan@mail.com",
+      "name": "Juan Dib",
+      "characterId": 22,
+      "username": "Hbox",
+      "id": 6
     }
   ],
   "characterNotes": [
@@ -220,25 +232,37 @@
       "id": 4,
       "userId": 1,
       "characterId": "14",
-      "body": "Kirby is cute"
+      "body": "Not much to say here. Normal outplays will beat anything Kirby can do."
     },
     {
       "id": 5,
       "userId": 4,
       "characterId": "17",
-      "body": "very annoying"
+      "body": "Watch out for her grab/tech chase. At high percents look out for random fairs and bairs."
     },
     {
       "id": 6,
       "userId": 2,
       "characterId": "11",
-      "body": "Falco is cool"
+      "body": "Work on how to deal with Falco's lasers. Powershielding lasers is a good option"
     },
     {
       "id": 7,
       "userId": 5,
       "characterId": "5",
-      "body": "she can fly"
+      "body": "Avoid downsmash and don't let her pull turnips."
+    },
+    {
+      "id": 8,
+      "userId": 6,
+      "characterId": "10",
+      "body": "scary scaryy"
+    },
+    {
+      "id": 9,
+      "userId": 6,
+      "characterId": "8",
+      "body": "stomp knee"
     }
   ],
   "userCharacterMatchups": []
