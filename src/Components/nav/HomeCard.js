@@ -1,13 +1,13 @@
-export const HomeCard = ({user}) => {
+export const HomeCard = ({user, note}) => {
     
     
     return(
         <>
-            <h2>Welcome to sunShine, {user.username}</h2>
+            
 
             <div className="home__character__card">
                 <div>
-                    <h4 className="home-character-card-title">Your Character:</h4>
+                    <div className="home-character-card-title">Your Character:</div>
                     <div className="home-picture-name">
                         <picture>
                             <img className="home-stockIcon" src={`/images/${user.character.stockIcon}HeadSSBM.webp`}    alt="Character Stock Icon" />

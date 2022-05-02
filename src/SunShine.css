@@ -17,6 +17,17 @@
 
 .App-header {
   background-color: #0f0f15;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: #AAE7FF;
+  padding: 5px;
+}
+.App-body {
+  background-color: #0f0f15;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
