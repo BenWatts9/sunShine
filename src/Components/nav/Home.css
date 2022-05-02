@@ -31,6 +31,7 @@
 .home-picture-name{
     display: flex;
     flex-direction: row;
+    padding-top: .5em;
 }
 
 .home-notes-container{
@@ -47,15 +48,13 @@
 
 .home-card-charactername{
     padding-left: .5em;
+    padding-top: 1em;
     text-shadow: 0 0 .15em rgba(8, 8, 8, 0.5),
-    0 0 .45em currentColor ;
-    font-size: 1.3em;
+    0 0 .3em currentColor ;
+    font-size: 1.5em;
+    
 }
 
-.home-stockIcon {
-    height: 45px;
-    width: 45px;
-}
 
 img {
     -webkit-filter: drop-shadow(1px 1px 0 black)
