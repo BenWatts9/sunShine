@@ -39,8 +39,8 @@ export const Matchups = () => {
             return <>
                     <div className="mu-card-container-win">
                         <p className="matchup-card matchup-card-win">
-                            {character.name}
                             <img className="stockIconMu" src={`../images/${character.stockIcon}HeadSSBM.webp`} alt="Character Stock Icon"/>
+                            {character.name}
                         </p>
                     </div>
                     </>
@@ -79,7 +79,9 @@ export const Matchups = () => {
 
     
     return(
-        <>
+        <>  
+        {/* <div style={{backgroundImage: `url(.../images/${char.stockIcon}Render.png)`,
+        backgroundRepeat: 'no-repeat'}}> */}
             <fieldset>
             <label htmlFor="selectedCharacter">View Character Matchups </label>
                     <select value={char} name="id"
@@ -94,6 +96,7 @@ export const Matchups = () => {
                         ))}
                     </select>
             </fieldset>
+            <hr className="bar-marker"/>
                 <h4 className="card-name-header"><img className="headerStockIconMu" src={`../images/${char.stockIcon}HeadSSBM.webp`} alt="Character Stock Icon"/>{char.name}</h4>
             <div className="mu-container">
                 <div className="win-container">
@@ -119,6 +122,7 @@ export const Matchups = () => {
                     )}
                     </div>
             </div>
+        {/* </div> */}
         </>
     )
 }

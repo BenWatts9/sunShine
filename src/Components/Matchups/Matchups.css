@@ -17,6 +17,7 @@
      text-shadow: 
         0 0 .125em rgba(0, 0, 0, 0.3),
         0 0 .45em currentColor;
+    margin-top: .5em;
 }
 
 .beat-lose-label{
@@ -48,9 +49,8 @@
     width: 85%;
     display: flex;
     margin-left: 15px;
+    margin-top: -1.5em;
 }
-
-
 
 .win-container{
     display: flex;

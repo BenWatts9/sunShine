@@ -4,6 +4,7 @@ import { getAllNotes, deleteNote, getNotesByUserId, getNotesByCharacterID } from
 import "./Note.css"
 import { Link } from "react-router-dom";
 import { getAllCharactersForMU } from "../Modules/CharacterManager";
+import { useNavigate } from "react-router-dom";
 
 
 export const NotesList = () => {
@@ -11,13 +12,14 @@ export const NotesList = () => {
     const [userNotes, setUserNotes] = useState([])
     const [notesDisplay, setNotesDisplay] = useState([])
     const [characters, setCharacters] = useState([])
+    const [firstLook, setFirstLook] = useState(true)
 
+    const navigate = useNavigate()
 
     const getNotes = () => {
         return getAllNotes()
         .then(notesFromAPI => {
-            setNotes(notesFromAPI)
-            
+            setNotes(notesFromAPI)    
         })
     }
 
@@ -25,7 +27,10 @@ export const NotesList = () => {
         return getNotesByUserId(id)
         .then(userNotesFromAPI => {
             setUserNotes(userNotesFromAPI)
-            setNotesDisplay(userNotesFromAPI)
+            if (firstLook){
+                setNotesDisplay(userNotesFromAPI)
+                setFirstLook(false)
+            }
         })
     }
 
@@ -55,7 +60,8 @@ export const NotesList = () => {
 
     // Deletes Notes
     const handleDeleteNote = id => {
-        deleteNote(id).then(()=> getAllNotes().then(setNotes))
+        deleteNote(id)
+        .then(()=> getNotesByUserId(JSON.parse(sessionStorage.getItem("sunshine_user")).id).then(setNotesDisplay))
     }
 
 
@@ -64,13 +70,15 @@ export const NotesList = () => {
         getCharacterNotes(evt.target.value)
     }
 
+    
+
     useEffect(()=> {
         getUserNotes(JSON.parse(sessionStorage.getItem("sunshine_user")).id)
-    }, [])
+    }, [notesDisplay])
 
     useEffect(()=>{
         getNotes()
-    }, [])
+    }, [notesDisplay])
 
     useEffect(()=> {
         getCharacters()
@@ -78,12 +86,13 @@ export const NotesList = () => {
 
     return(
         <>
+            <div className="notes-form">
             <fieldset>
             <label htmlFor="selectedCharacter">View Character Notes </label>
                     <select name="id"
                     id="id"
                     onChange={handleCharacterNotesInputChange}
-                    className="form-control">
+                    className="form-control-notes form-control">
                         <option value="0">View Character Notes</option>
                         {characters.map(c => (
                             <option key={c.id} value={c.id}>
@@ -97,12 +106,16 @@ export const NotesList = () => {
                     <select name="id"
                     id="id"
                     onChange={handleNotesInputChange}
-                    className="form-control">
+                    className="form-control-notes form-control">
                         <option value="0">View Notes</option>
                         <option value="1">All Notes</option>
                         <option value="2">My Notes</option>
                     </select>
             </fieldset>
+            
+                <button type="button" className="select-button form-control-notes addbtn" onClick={()=>navigate("/characters")} >+ Note</button>
+            </div>
+            <hr className="bar-marker"/>
             <div className="container-cards">
                 {notesDisplay.map(note =>
                     <NoteCard 

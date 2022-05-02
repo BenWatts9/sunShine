@@ -225,6 +225,13 @@
       "characterId": 22,
       "username": "Hbox",
       "id": 6
+    },
+    {
+      "email": "z@mail.com",
+      "name": "zain naggy",
+      "characterId": 25,
+      "username": "tekkenz",
+      "id": 7
     }
   ],
   "characterNotes": [
@@ -262,7 +269,19 @@
       "id": 9,
       "userId": 6,
       "characterId": "8",
-      "body": "stomp knee"
+      "body": "Don' try to run away from him. Beat out his hitboxes with faster ones. Grab a lot."
+    },
+    {
+      "id": 12,
+      "userId": 5,
+      "characterId": "15",
+      "body": "Great recovery. Be very patient when trying to edgeguard."
+    },
+    {
+      "id": 13,
+      "userId": 1,
+      "characterId": "10",
+      "body": "Fox is very fast. Don't let him bully you."
     }
   ],
   "userCharacterMatchups": []

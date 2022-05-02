@@ -2,6 +2,7 @@ import './SunShine.css';
 import { NavBar } from './Components/nav/NavBar';
 import { useState } from 'react';
 import { ApplicationViews } from './Components/ApplicationViews';
+import { Footer } from './Components/nav/Footer';
 
 export const SunShine = () => {
   
@@ -28,19 +29,17 @@ export const SunShine = () => {
         </div>
         
       
-      <ApplicationViews setAuthUser={setAuthUser}
+
+        </header>
+        <body className="App-body">
+
+            <ApplicationViews setAuthUser={setAuthUser}
                 isAuthenticated={isAuthenticated}
                 setIsAuthenticated={setIsAuthenticated}/>
-
-                </header>
-    <footer><a
-          className="App-link"
-          href="https://slippi.gg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Play Melee
-        </a></footer>
+        </body>
+    <footer>
+      <Footer />
+    </footer>
     </div>
   );
 }
