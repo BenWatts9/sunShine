@@ -47,14 +47,19 @@ export const NoteForm = () => {
 
     return (
         <form className="noteForm">
-            <div className="noteForm__title">New Note for {`${character.name}`}</div>
+            <div className="noteForm__titleImg">
+            <div className="noteForm__title">New note for {`${character.name}`}
+            </div> 
+                <picture>
+                        <img className="char-render" src={`/images/${character.stockIcon}Render.png`} alt="Character Stock Icon" />
+                    </picture></div>
             <fieldset>
                 <div className="form-group">
                     <label htmlFor="body"></label>
                     <textarea type="text"
                     id="body"
                     rows="6"
-                    cols="40"
+                    cols="37"
                     onChange={handleInputChange}
                     required
                     autoFocus

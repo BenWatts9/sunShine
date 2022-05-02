@@ -114,14 +114,25 @@
 }
 
 .noteForm {
-    background-color: #011c1b;
+    background-color: #024745;
     border-radius: .25em; 
     box-shadow: inset 0 0 .5em 0 #000000,
      0 0 .5em 0 #000000;
+    max-width: 16em;
+    padding-bottom: 1em;
 }
 
 .noteForm__title {
     margin-left: .9em;
+    padding-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.noteForm__titleImg {
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .btnz {
