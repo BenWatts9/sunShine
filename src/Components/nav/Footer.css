@@ -1,0 +1,29 @@
+.footer-container {
+    color: #AAE7FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+}
+
+.footer-logo{
+    height: 100px;
+    margin: 0 0 0 0;
+}
+
+.footer-logo-container{
+    margin-top: -20px;
+    margin-bottom: -27px;
+}
+
+.footerline{
+    width: 50%;
+    border: none;
+    background-color: #5bccf8;
+    height: 1px;
+    margin-top: 2px;
+}
+
+.footy-copy{
+    margin-bottom: 20px;
+}

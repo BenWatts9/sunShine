@@ -80,11 +80,16 @@
     text-shadow: 
         0 0 .125em hsl(0 0% 100% / 0.3),
         0 0 .45em currentColor ;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    
 }
 
 .back-clicker:hover{
     color:#50cbfc;
-}
+} 
 
 .select-buttons{
     display: inline-block;
