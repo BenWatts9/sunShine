@@ -31,12 +31,12 @@ export const SunShine = () => {
       
 
         </header>
-        <body className="App-body">
+        <div className="App-body">
 
             <ApplicationViews setAuthUser={setAuthUser}
                 isAuthenticated={isAuthenticated}
                 setIsAuthenticated={setIsAuthenticated}/>
-        </body>
+        </div>
     <footer>
       <Footer />
     </footer>

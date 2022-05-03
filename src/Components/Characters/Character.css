@@ -67,7 +67,7 @@ img {
 .button-container{
     display: flex;
     align-items: baseline;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .card-charactername{
@@ -75,13 +75,13 @@ img {
     text-shadow: 0 0 .15em rgba(8, 8, 8, 0.5),
     0 0 .45em currentColor ;
     font-size: 1.3em;
+    /* margin-bottom: ; */
 }
 
 .container-cards {
     display: flex;
     flex-wrap: wrap;
     position:relative;
-    
 }
 
 .picture-name {

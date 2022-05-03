@@ -40,7 +40,7 @@ export const Home = () => {
         <>
         <h2 className="home-message-title">Welcome to sunShine, {JSON.parse(sessionStorage.getItem("sunshine_user")).username}</h2>
 
-        <p className="home-message">This application is designed to provide an easy place to keep notes and matchup help in Super Smash Brothers Melee.</p>
+        <p className="home-message">This application is designed to provide an easy place to keep notes and help with matchups in Super Smash Brothers Melee.</p>
 
         <div className="profile-container">
 
