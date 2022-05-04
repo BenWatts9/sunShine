@@ -38,7 +38,7 @@ export const NotesCharacterList = () => {
                         handleDeleteNote={handleDeleteNote}
                     />)}
             </div>
-            <div className="back-clicker" onClick={(handleBack)}> &#60;&#60;&#60;Back </div>
+            <div className="back-clicker" onClick={(handleBack)}> &#60;&#60;&#60; To character list </div>
             
         </>
     )

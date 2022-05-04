@@ -28,6 +28,10 @@ export const NoteForm = () => {
         setNote(newNote)
     }
 
+    const handleBack = () => {
+        navigate("/characters")
+    }
+
     const handleClickSaveNote = (event) => {
         event.preventDefault()
 
@@ -76,6 +80,7 @@ export const NoteForm = () => {
          >
            Save
          </button>
+         <div className="btnz select-buttons2" onClick={handleBack}> Cancel </div>
         </form>
     )
 

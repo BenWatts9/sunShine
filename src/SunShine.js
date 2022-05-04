@@ -3,8 +3,12 @@ import { NavBar } from './Components/nav/NavBar';
 import { useState } from 'react';
 import { ApplicationViews } from './Components/ApplicationViews';
 import { Footer } from './Components/nav/Footer';
+import { Link } from 'react-router-dom';
+
+
 
 export const SunShine = () => {
+  
   
   const [isAuthenticated, setIsAuthenticated] = useState(sessionStorage.getItem("sunshine_user") !== null)
 
@@ -21,10 +25,12 @@ export const SunShine = () => {
   
   return (
 
-    <div className="App">
+    <div className="App" >
       <header className="App-header">
         <div className='page-header'>
-        <img src={"images/sunShineFlat.png"} className="App-logo" alt="logo" />
+          <Link className="nav-link" to="/home">
+            <img src={"/images/sunShineFlat.png"} className="App-logo" alt="logo" />
+          </Link>
          
         </div>
         
@@ -32,7 +38,6 @@ export const SunShine = () => {
 
         </header>
         <div className="App-body">
-
             <ApplicationViews setAuthUser={setAuthUser}
                 isAuthenticated={isAuthenticated}
                 setIsAuthenticated={setIsAuthenticated}/>

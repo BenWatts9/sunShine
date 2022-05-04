@@ -16,7 +16,7 @@
 } */
 
 .App-header {
-  background-color: #0f0f15;
+  background-color: #101132;
 
   display: flex;
   flex-direction: column;
@@ -27,7 +27,9 @@
   padding: 5px;
 }
 .App-body {
-  background-color: #0f0f15;
+  background: url("../public/images/MeleeBGScene00501.png");
+  background-size: 200vh;
+  background-repeat: none;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -42,6 +44,10 @@ footer {
   position: sticky;
   background-color: #101132;
 }
+
+
+
+
 
 .App-link {
   color: #AAE7FF;

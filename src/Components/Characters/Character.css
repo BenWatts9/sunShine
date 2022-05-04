@@ -35,6 +35,9 @@
 .cardContent__F .select-button{
     background-color: #242a8b; 
 }
+.charProfile-card .select-button{
+    background-color: #0f0f15; 
+}
 
 .card {
     display: flex;
@@ -43,7 +46,7 @@
     margin: 5px;
     height: 150px;
     width: 235px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 20px;
     font-size: 20px; 
     color: #AAE7FF;
     border-radius: .25em; 
@@ -67,15 +70,27 @@ img {
 .button-container{
     display: flex;
     align-items: baseline;
-    /* justify-content: space-around; */
 }
 
-.card-charactername{
-    padding-left: 2em;
+.card-name-link{
+    padding-left: .5em;
     text-shadow: 0 0 .15em rgba(8, 8, 8, 0.5),
     0 0 .45em currentColor ;
     font-size: 1.3em;
-    /* margin-bottom: ; */
+    color:#AAE7FF;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+
+.card-name-link:hover{
+    color:#50cbfc;
+}
+
+
+.char-desc{
+    font-size: medium;
+    width: 25em;
 }
 
 .container-cards {
@@ -115,4 +130,8 @@ img {
     color: #011c1b;
     text-shadow: 0;
     box-shadow: 0;
+}
+
+Link {
+    text-decoration: none;
 }
