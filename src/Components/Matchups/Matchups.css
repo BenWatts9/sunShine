@@ -46,7 +46,8 @@
         0 0 .45em currentColor;
 }
 .mu-container{
-    width: 85%;
+    min-width: 30em;
+    max-width:40em;
     display: flex;
     margin-left: 15px;
     margin-top: -1.5em;

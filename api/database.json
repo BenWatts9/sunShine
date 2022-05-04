@@ -304,16 +304,16 @@
       "body": "Great recovery. Be very patient when trying to edgeguard."
     },
     {
-      "id": 13,
-      "userId": 1,
-      "characterId": "10",
-      "body": "Fox is very fast. Don't let him bully you."
-    },
-    {
       "id": 14,
       "userId": 7,
       "characterId": "7",
       "body": "Keep him facing you. He doesn't have a great way to approach from the front."
+    },
+    {
+      "id": 15,
+      "userId": 1,
+      "characterId": "25",
+      "body": "Be careful of Marth's massive hitboxes. Don't get grabbed."
     }
   ],
   "userCharacterMatchups": []

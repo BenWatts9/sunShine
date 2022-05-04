@@ -4,12 +4,16 @@
     justify-content: left;
     list-style-type: none;
     align-items: left;
+    background-color: #101132;
+    border-radius: .25em;
+    box-shadow: inset 0 0 .3em 0 #000000,
+     0 0 .5em 0 #000000;
 } 
 
 .nav-item {
     flex-basis: 20%;
     margin-right: 2em;
-    
+    padding-bottom: .3em;
 }
 
 .nav-link{

@@ -29,6 +29,10 @@ export const EditNoteForm = () => {
         .then(()=> navigate("/notes"))
     }
 
+    const handleBack = () => {
+        navigate("/notes")
+    }
+
     useEffect(()=> {
         getNoteById(noteId)
         .then(note=> {
@@ -42,24 +46,34 @@ export const EditNoteForm = () => {
             <form>
                 <fieldset>
                     <div className="formgrid">
-                        <label htmlFor="name">Article title:</label>
-                            <textarea
-                                type="text"
-                                required
-                                className="form-control"
-                                onChange={handleFieldChange}
-                                id="body"
-                                value={note.body}
-                            />
+                        <label htmlFor="name">Note Contents:</label>
+                        
+                    <div className="form-group">
+                        <label htmlFor="body"></label>
+                        <textarea type="text"
+                            id="body"
+                            rows="6"
+                            cols="37"
+                            onChange={handleFieldChange}
+                            required
+                            autoFocus
+                            className="form-control"
+                            placeholder="Add your note"
+                            value={note.body}>
+                        </textarea>
+                </div>
                     </div>
-                    <div className="alignRight">
+                </fieldset>
+                    <div>
                         <button
                             type="button" disabled={isLoading}
                             onClick={updateExistingNote}
-                            className="btn btn-primary"
+                            className="btnz select-buttons"
                             >Submit</button>
+                    
+                    <div className="btnz select-buttons2" onClick={handleBack}> Cancel </div>
                     </div>
-                </fieldset>
+        
             </form>
 
 
