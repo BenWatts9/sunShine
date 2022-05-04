@@ -9,6 +9,7 @@ import { NoteForm } from "./Notes/AddNoteForm"
 import { EditNoteForm } from "./Notes/EditNoteForm"
 import { NavBar } from "./nav/NavBar"
 import { Matchups } from "./Matchups/Matchups"
+import { CharacterPage } from "./Characters/CharacterPage"
 
 export const ApplicationViews = ({ isAuthenticated, setIsAuthenticated }) => {
 
@@ -41,7 +42,8 @@ export const ApplicationViews = ({ isAuthenticated, setIsAuthenticated }) => {
                 <Route path="/" element={<PrivateOutlet />}>
                     <Route path="home" element={<Home />}/>
                     <Route path="characters" element={<CharacterList/>}/>
-                    
+                    <Route path="characters/:characterId" element={<CharacterPage/>}/>
+
                     <Route path="notes" element={<NotesList />} />
                     <Route path="notes/:characterId/add" element={<NoteForm />} />
                     <Route path="notes/:characterId" element={<NotesCharacterList />} />

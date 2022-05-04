@@ -5,182 +5,208 @@
       "tier": "C",
       "id": 1,
       "stockIcon": "Mario",
-      "tierNumber": 16
+      "tierNumber": 16,
+      "description": "Mario is perhaps the most balanced character in Super Smash Bros. Melee. If you can craft your smash skills around his then you are truly one your way to being a pro. It's fair to say that Mario is the character for all players, as he is fully balanced with projectiles, a deflection move, and plenty of strong attacks. Not only that but he's very quick, and unlike his brother Luigi has better traction when it comes to navigating the ground's surface"
     },
     {
       "name": "Luigi",
       "tier": "C",
       "id": 2,
       "stockIcon": "Luigi",
-      "tierNumber": 12
+      "tierNumber": 12,
+      "description": "As one of the Super Mario Bros., one would assume Luigi to be a clone of his brother Mario. However, if you take enough time to explore his move list you'll quickly find he has several differences and a few tricks up his sleeve too. When you first take hold of Luigi, you'll notice that controlling him just feels different than controlling Mario. This is due to the fact that he can jump higher than his brother and also tends to slip and slide a little more -- so be careful around the edges. His third uppercut jump goes straight up, so if you're facing the wrong direction or too far off the ledge you'll fall into the oblivion."
     },
     {
       "name": "Dr. Mario",
       "tier": "C",
       "id": 3,
       "stockIcon": "DrMario",
-      "tierNumber": 13
+      "tierNumber": 13,
+      "description": "Since he's a clone of Mario, Dr. Mario shares Mario's status as perhaps the most balanced character in Super Smash Bros. Melee. If you can craft your smash skills around his then you are truly on your way to being a pro. It's fair to say that Dr. Mario is the character for all players, as he is fully balanced with projectiles, a deflection move, and plenty of strong attacks. Not only that but he's very quick, and unlike his brother Luigi has better traction when it comes to navigating the ground's surface."
     },
     {
       "name": "Bowser",
       "tier": "F",
       "id": 4,
       "stockIcon": "Bowser",
-      "tierNumber": 26
+      "tierNumber": 26,
+      "description": "The ultimate bad guy from the Mario Bros. series finally makes his debut as a playable fighting game character, and despite his size, he is more than up to the task. Bowser is pretty much Donkey Kong's counterpart as far as speed goes, but his added size gives him greater reach and an added advantage in group brawls. His moves are devastating. He can breathe fire, he can squish opponents by falling on them, and he can spin on his shell, damaging everything around him with his spiky thorns."
     },
     {
       "name": "Peach",
       "tier": "A",
       "id": 5,
       "stockIcon": "Peach",
-      "tierNumber": 7
+      "tierNumber": 7,
+      "description": "Princess Peach is one of the more strongly weighted characters in Super Smash Bros. Melee. It's possible to be downright cheap with her because her moves can be overpowered, especially her down smash.  She can float horizontally for long distances, and if she pulls out her parasol she can float slowly downward. Certainly her ability to make it back to the platform is unprecedented and rivals even that of Jigglypuff."
     },
     {
       "name": "Yoshi",
       "tier": "B",
       "id": 6,
       "stockIcon": "Yoshi",
-      "tierNumber": 9
+      "tierNumber": 9,
+      "description": "Yoshi is definitely one of the stronger characters in the Super Smash Bros. Melee cast. Truly, it's his gigantic melon and whip-like tail that allow him to deal out so much damage. That said, you'll want to use his head a lot. Dashing toward a foe and hitting the A-button will result in a head-butt that's very useful for charging into battle. But, the truth be told, Yoshi is a much better distance fighter. That is, not in the sense of throwing projectiles, but more so starting an attack from afar."
     },
     {
       "name": "Donky Kong",
       "tier": "C",
       "id": 7,
       "stockIcon": "DonkeyKong",
-      "tierNumber": 15
+      "tierNumber": 15,
+      "description": "Donkey Kong is a big boy. He doesn't have great forward facing hitboxes, so he relies on his back air and grab for approaching. His juggle game can be a very good option versus fast fallers like Fox and Falco."
     },
     {
       "name": "Captain Falcon",
       "tier": "A",
       "id": 8,
       "stockIcon": "CaptainFalcon",
-      "tierNumber": 6
+      "tierNumber": 6,
+      "description": "Captain Falcon is one of the fastest characters in Smash Bros. Melee and is definitely much quicker than his clone, Ganondorf. One would think that his light weight would mean he has less powerful attacks, but that's not true in the least. Also, due to his lighter state he's a bit easier to knock off of the screen. He is the second fastest character in SSBM, only falling behind to Fox. This makes him very agile and is what you need to take advantage of most."
     },
     {
       "name": "Ganondorf",
       "tier": "C",
       "id": 9,
       "stockIcon": "Ganondorf",
-      "tierNumber": 14
+      "tierNumber": 14,
+      "description": "Ganondorf is a slow brawler. He makes up for his lack of speed in raw damage dealing capabilities. While his recovery is not great he can beat other characters off stage with reverse falling up air."
     },
     {
       "name": "Fox",
       "tier": "S",
       "id": 10,
       "stockIcon": "Fox",
-      "tierNumber": 1
+      "tierNumber": 1,
+      "description": "Fox is very good at just about every playstyle in Melee. He is very quick and has great damage output. His up smash will kill almost every character in the game at 100% on any legal stage. Fox can also use his quickness to be very campy and only engage when he wants to."
     },
     {
       "name": "Falco",
       "tier": "S",
       "id": 11,
       "stockIcon": "Falco",
-      "tierNumber": 3
+      "tierNumber": 3,
+      "description": "Falco has potentially the best projectile in the game with his laser. He can completely control the neutral game by putting his lasers where he wants. This, combined with his devastating punish game can make it extremely difficult for opponents to break his wall."
     },
     {
       "name": "Ness",
       "tier": "D",
       "id": 12,
       "stockIcon": "Ness",
-      "tierNumber": 23
+      "tierNumber": 23,
+      "description": "Ness is a peculiar character. He relies on the strengths of his PSI mind power to lead him to victory. He can us his psychic powers on his yo-yo, to create bolts of fire, and even glide through the air on a bed of mind control. His speed, agility, and genius is more than enough to pummel any opponent. The trick is to use it wisely."
     },
     {
       "name": "Ice Climbers",
       "tier": "B",
       "id": 13,
       "stockIcon": "IceClimbers",
-      "tierNumber": 11
+      "tierNumber": 11,
+      "description": "Ice climbers have an amazing wavedash and wonderful grab game. If a player becomes proficient at hand offs and desyncs, ICs can be very powerful. Just remember to protect Nana!"
     },
     {
       "name": "Kirby",
       "tier": "F",
       "id": 14,
       "stockIcon": "Kirby",
-      "tierNumber": 25
+      "tierNumber": 25,
+      "description": "While many casual players love to play as Kirby, he is not very good in Melee. He has very weak moves and his air drift is very slow for an air based character."
     },
     {
       "name": "Samus",
       "tier": "B",
       "id": 15,
       "stockIcon": "Samus",
-      "tierNumber": 10
+      "tierNumber": 10,
+      "description": "Samus has great footsies and mix up game. She plays the most like a traditional 2D fighter. Using her missles to wall out her opponents, she also has a great zoning game. Samus also has some of the most difficult tech in the game. This makes her very tricky."
     },
     {
       "name": "Zelda",
       "tier": "D",
       "id": 16,
       "stockIcon": "Zelda",
-      "tierNumber": 22
+      "tierNumber": 22,
+      "description": "Zelda is very slow, but she does have very powerful aerials. Zelda has never been considered very good. This is because her Down-B can transform her into Sheik, a character consistenly high on tier lists. All that being said, Zelda can be very powerful in the right hands."
     },
     {
       "name": "Sheik",
       "tier": "S",
       "id": 17,
       "stockIcon": "Sheik",
-      "tierNumber": 4
+      "tierNumber": 4,
+      "description": "Shiek has a great grab game and her tilts make it so that she is difficult to approach. She is magnificant at using a defensive playstyle to convert counterhits into quick kills."
     },
     {
       "name": "Link",
       "tier": "C",
       "id": 18,
       "stockIcon": "Link",
-      "tierNumber": 18
+      "tierNumber": 18,
+      "description": "Link has a lot of projectiles. This can make it very hard for opponents to approach him. He is slow though, however if used correctly his tricks can get the best of even the most skilled players."
     },
     {
       "name": "Young Link",
       "tier": "C",
       "id": 19,
       "stockIcon": "YoungLink",
-      "tierNumber": 17
+      "tierNumber": 17,
+      "description": "While not a hard hitting as Link, Young Link is much faster. This makes the switch from zoning to approaching much easier. Young Link is great versus characters that do not want to approach in neutral, like Jigglypuff."
     },
     {
       "name": "Pikachu",
       "tier": "B",
       "id": 20,
       "stockIcon": "Pikachu",
-      "tierNumber": 8
+      "tierNumber": 8,
+      "description": "Pikachu is very quick and can be very slippery for opponents to try to attack. His aerials do not do much damage so he has to work for each percent of damage that he does. That being said, he up smash can kill very early."
     },
     {
       "name": "Pichu",
       "tier": "F",
       "id": 21,
       "stockIcon": "Pichu",
-      "tierNumber": 24
+      "tierNumber": 24,
+      "description": "Pichu was made to be a joke character. He is the only character in the game that actively damages themselves with thier own aerials. However, Pichu can be used to devastate your opponents' egos."
     },
     {
       "name": "Jigglypuff",
       "tier": "A",
       "id": 22,
       "stockIcon": "Jigglypuff",
-      "tierNumber": 5
+      "tierNumber": 5,
+      "description": "The balloon pokemon is extremely good in the air. Her aerial drift and many jumps make it so that her opponents have to work very have just to hit her. She is extremely light, so she can die early. This just speaks to how good her air game and edgeguarding are."
     },
     {
       "name": "Mewtwo",
       "tier": "C",
       "id": 23,
       "stockIcon": "Mewtwo",
-      "tierNumber": 19
+      "tierNumber": 19,
+      "description": "Mewtwo has a glaring weakness in that his hurtbox extends to his tail. That being said, he is very tricky with his recovery and ledge game. He is good at comboing fastfallers like Fox and Falco."
     },
     {
       "name": "Mr. Game & Watch",
       "tier": "D",
       "id": 24,
       "stockIcon": "MrGame&Watch",
-      "tierNumber": 20
+      "tierNumber": 20,
+      "description": "Mr. Game & Watch is almost a complete character. He cannot L-cancel most of his aerials and his shield is very bad, but he does play like a mini-Marth with his big hitboxes and good grab."
     },
     {
       "name": "Marth",
       "tier": "S",
       "id": 25,
       "stockIcon": "Marth",
-      "tierNumber": 2
+      "tierNumber": 2,
+      "description": "Marth might have the best matchup in the game versus the space animals (Fox and Falco). His grab is huge and his grab followups are very good. He also can throw out giant hitboxes with his aerials."
     },
     {
       "name": "Roy",
       "tier": "D",
       "id": 26,
       "stockIcon": "Roy",
-      "tierNumber": 21
+      "tierNumber": 21,
+      "description": "Roy is Marth with a pool noodle instead of a sword. Still though, if you are good with Marth you can potentially use Roy to his full potential."
     }
   ],
   "users": [

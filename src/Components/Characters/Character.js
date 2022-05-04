@@ -10,10 +10,11 @@ export const CharacterCard = ({character}) => {
                     <picture>
                         <img className="stockIcon" src={`/images/${character.stockIcon}HeadSSBM.webp`} alt="Character Stock Icon" />
                     </picture>
-                    <div className="card-charactername">
-                        {character.name}   
+                    <div className="char-desc">
+                        <Link to={`/characters/${character.id}`} className="card-name-link">
+                            {character.name}   
+                        </Link>
                     </div>
-                    
                 </div>
                 <div className="button-container">
                 <Link to={`/notes/${character.id}/add`} >
