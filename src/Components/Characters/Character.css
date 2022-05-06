@@ -39,6 +39,33 @@
     background-color: #0f0f15; 
 }
 
+.card-block-S {
+    display: flex;
+    flex-direction: row;   
+}
+.card-block-A {
+    
+}
+.card-block-B {
+    
+}
+.card-block-C {
+    
+}
+.card-block-D {
+    
+}
+.card-block-F {
+    
+}
+
+.container-cardz {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -87,17 +114,16 @@ img {
     color:#50cbfc;
 }
 
+.tier-letter{
+    color: yellow;
+
+}
 
 .char-desc{
     font-size: medium;
     width: 25em;
 }
 
-.container-cards {
-    display: flex;
-    flex-wrap: wrap;
-    position:relative;
-}
 
 .picture-name {
     display: flex;

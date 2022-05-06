@@ -18,6 +18,10 @@ export const Register = () => {
 
 	const navigate = useNavigate();
 
+	const handleBack = () => {
+        navigate("/login")
+    }
+
 	const handleInputChange = (event) => {
 		const newUser = { ...registerUser };
 		let selectedVal= event.target.value;
@@ -91,9 +95,9 @@ export const Register = () => {
 			</dialog>
 
 			<form className="form--login" onSubmit={handleRegister}>
-				<h1 className="h3 mb-3 font-weight-normal">
+				<h3 className="h3 mb-3 font-weight-normal">
 					Please Register for sunShine
-				</h1>
+				</h3>
 				<fieldset>
 					<label htmlFor="firstName"> First Name </label>
 					<input
@@ -163,8 +167,10 @@ export const Register = () => {
 					/>
 				</fieldset>
 				<fieldset>
-					<button type="submit"> Sign in </button>
+					<button type="submit" className="select-buttonz"> Sign in </button>
+				<div className= "select-buttonz2" onClick={handleBack}> Cancel </div>
 				</fieldset>
+                    
 			</form>
 		</main>
 	);

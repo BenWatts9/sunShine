@@ -141,7 +141,7 @@
       "tier": "C",
       "id": 18,
       "stockIcon": "Link",
-      "tierNumber": 18,
+      "tierNumber": 19,
       "description": "Link has a lot of projectiles. This can make it very hard for opponents to approach him. He is slow though, however if used correctly his tricks can get the best of even the most skilled players."
     },
     {
@@ -181,7 +181,7 @@
       "tier": "C",
       "id": 23,
       "stockIcon": "Mewtwo",
-      "tierNumber": 19,
+      "tierNumber": 18,
       "description": "Mewtwo has a glaring weakness in that his hurtbox extends to his tail. That being said, he is very tricky with his recovery and ledge game. He is good at comboing fastfallers like Fox and Falco."
     },
     {
@@ -258,6 +258,13 @@
       "characterId": 25,
       "username": "tekkenz",
       "id": 7
+    },
+    {
+      "email": "mail@mail.com",
+      "name": "Doug Falcon",
+      "characterId": 2,
+      "username": "DougIsFast",
+      "id": 8
     }
   ],
   "characterNotes": [
@@ -289,7 +296,7 @@
       "id": 8,
       "userId": 6,
       "characterId": "10",
-      "body": "scary scaryy"
+      "body": "Rember DI his up throws and SDI his up-airs."
     },
     {
       "id": 9,
@@ -314,6 +321,18 @@
       "userId": 1,
       "characterId": "25",
       "body": "Be careful of Marth's massive hitboxes. Don't get grabbed."
+    },
+    {
+      "id": 16,
+      "userId": 8,
+      "characterId": "10",
+      "body": "He's faster than you expect. Watch out for his sharking up-airs."
+    },
+    {
+      "id": 1,
+      "userId": 8,
+      "characterId": "22",
+      "body": "Make sure to remember to play patiently. She will beat you in the air."
     }
   ],
   "userCharacterMatchups": []

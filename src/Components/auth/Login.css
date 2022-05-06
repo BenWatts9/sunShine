@@ -2,10 +2,12 @@
 
 
 .form--login{
-    background-color: #000000;
+    background-color: #281c33;
     border-radius: .25em;
     display: flex;
     flex-direction: column;
+    box-shadow: inset 0 0 .1em 0 #000000,
+     0 0 .5em 0 #000000;
     
 }
 
@@ -22,9 +24,13 @@ fieldset{
 }
 
 .reglink{
-    color: #648bfb;
+    color: #AAE7FF;
     font-size: .75em;
-    padding-left: 1em;;
+    padding-left: 0;
+}
+
+.reglink:hover{
+    color: #648bfb;
 }
 
 .form-control{
@@ -52,7 +58,31 @@ fieldset{
     
 }
 
+.select-buttonz2{
+    display: inline-block;
+    background-color: #000000;
+    margin-right: 2em;
+    margin-bottom: .5em;
+    font-size: .7em;
+    padding: 0.15em .9em;
+    color: yellow; 
+    text-shadow: 
+        0 0 .125em hsl(0 0% 100% / 0.3),
+        0 0 .45em currentColor ;
+    border-radius: .25em;
+    border: currentColor .125px solid;
+    
+    cursor: pointer;
+
+    box-shadow: inset 0 0 .5em 0 currentColor, 0 0 .5em 0 currentColor;
+    position: sticky;
+}
+
 .select-buttonz:hover{
+    background-color:  yellow;
+    color: #000000;
+}
+.select-buttonz2:hover{
     background-color:  yellow;
     color: #000000;
 }

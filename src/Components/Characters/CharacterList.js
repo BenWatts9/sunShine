@@ -8,6 +8,8 @@ export const CharacterList = () => {
     const [ characters, setCharacters ] = useState([])
     
 
+    let tierLetter = "S"
+
     const getCharacters = () => {
         return getAllCharacters()
         .then(charactersFromAPI => {
@@ -15,22 +17,25 @@ export const CharacterList = () => {
         })
     }
 
+    
+   
+    
+
     useEffect(()=>{
         getCharacters()
     }, [])
 
     return (
     <>
-        <div className="container-cards">
-            
-            {characters.map(character =>
-                                <> 
+        <div className="container-cardz">
+            {characters.map(character =>            
                                     <CharacterCard 
                                     key={character.tierNumber}
                                     character={character}
-                                    /> 
-                                </>
-            )}                        
+                                    />                     
+            )}                       
+            
+           
         </div>
     </>
     )
