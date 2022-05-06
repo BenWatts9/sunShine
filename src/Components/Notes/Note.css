@@ -39,6 +39,7 @@
 .container-cards {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: start;
     align-items: start;
     margin-top: 20px;
@@ -49,7 +50,7 @@
     background-color: rgb(76, 112, 85);
     border: none;
     display: flex;
-    width: 89%;
+    width: 75%;
     height: 2px;
     margin-top: 20px;
 }
